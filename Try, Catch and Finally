@@ -1,0 +1,15 @@
+function reverseString(s) {
+    try{
+    var str = s;
+    str =  s.split('');
+    str = str.reverse();
+    str = str.join('');
+    }
+    catch (e){
+        console.log(e.message);
+    }
+    finally {
+        console.log(str);
+    }
+    
+}
